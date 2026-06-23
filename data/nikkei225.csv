@@ -1,0 +1,227 @@
+ticker,name,sector
+1332.T,Nissui,Fishery
+1605.T,Inpex,Mining
+1721.T,Comsys Holdings,Construction
+1801.T,Taisei,Construction
+1802.T,Obayashi,Construction
+1803.T,Shimizu,Construction
+1808.T,Haseko,Construction
+1812.T,Kajima,Construction
+1925.T,Daiwa House,Construction
+1928.T,Sekisui House,Construction
+1963.T,JGC Holdings,Construction
+2002.T,Nisshin Seifun,Food
+2269.T,Meiji Holdings,Food
+2282.T,Nh Foods,Food
+2501.T,Sapporo Holdings,Food
+2502.T,Asahi Group,Food
+2503.T,Kirin Holdings,Food
+2801.T,Kikkoman,Food
+2802.T,Ajinomoto,Food
+2871.T,Nichirei,Food
+2914.T,Japan Tobacco,Food
+3086.T,J Front Retailing,Retail
+3092.T,ZOZO,Retail
+3099.T,Isetan Mitsukoshi,Retail
+3382.T,Seven & i Holdings,Retail
+3401.T,Teijin,Textiles
+3402.T,Toray,Textiles
+3405.T,Kuraray,Chemicals
+3407.T,Asahi Kasei,Chemicals
+4004.T,Resonac Holdings,Chemicals
+4005.T,Sumitomo Chemical,Chemicals
+4021.T,Nissan Chemical,Chemicals
+4042.T,Tosoh,Chemicals
+4043.T,Tokuyama,Chemicals
+4061.T,Denka,Chemicals
+4063.T,Shin-Etsu Chemical,Chemicals
+4183.T,Mitsui Chemicals,Chemicals
+4188.T,Mitsubishi Chemical Group,Chemicals
+4208.T,UBE,Chemicals
+4452.T,Kao,Chemicals
+4901.T,Fujifilm Holdings,Chemicals
+4911.T,Shiseido,Chemicals
+6988.T,Nitto Denko,Chemicals
+4151.T,Kyowa Kirin,Pharmaceutical
+4502.T,Takeda Pharmaceutical,Pharmaceutical
+4503.T,Astellas Pharma,Pharmaceutical
+4506.T,Sumitomo Pharma,Pharmaceutical
+4507.T,Shionogi,Pharmaceutical
+4519.T,Chugai Pharmaceutical,Pharmaceutical
+4523.T,Eisai,Pharmaceutical
+4568.T,Daiichi Sankyo,Pharmaceutical
+4578.T,Otsuka Holdings,Pharmaceutical
+5019.T,Idemitsu Kosan,Oil
+5020.T,ENEOS Holdings,Oil
+5101.T,Yokohama Rubber,Rubber
+5108.T,Bridgestone,Rubber
+5201.T,AGC,Glass
+5214.T,Nippon Electric Glass,Glass
+5233.T,Taiheiyo Cement,Glass
+5301.T,Tokai Carbon,Glass
+5332.T,TOTO,Glass
+5333.T,NGK Insulators,Glass
+5401.T,Nippon Steel,Steel
+5406.T,Kobe Steel,Steel
+5411.T,JFE Holdings,Steel
+3436.T,Sumco,Nonferrous
+5706.T,Mitsui Mining and Smelting,Nonferrous
+5711.T,Mitsubishi Materials,Nonferrous
+5713.T,Sumitomo Metal Mining,Nonferrous
+5714.T,Dowa Holdings,Nonferrous
+5801.T,Furukawa Electric,Nonferrous
+5802.T,Sumitomo Electric,Nonferrous
+5803.T,Fujikura,Nonferrous
+5831.T,Shizuoka Financial Group,Bank
+6301.T,Komatsu,Machinery
+6302.T,Sumitomo Heavy Industries,Machinery
+6305.T,Hitachi Construction Machinery,Machinery
+6326.T,Kubota,Machinery
+6361.T,Ebara,Machinery
+6367.T,Daikin Industries,Machinery
+6471.T,NSK,Machinery
+6472.T,NTN,Machinery
+6473.T,JTEKT,Machinery
+7004.T,Kanadevia,Machinery
+7011.T,Mitsubishi Heavy Industries,Machinery
+7013.T,IHI,Machinery
+7012.T,Kawasaki Heavy Industries,Shipbuilding
+285A.T,Kioxia Holdings,Electrical
+4062.T,Ibiden,Electrical
+6479.T,MinebeaMitsumi,Electrical
+6501.T,Hitachi,Electrical
+6503.T,Mitsubishi Electric,Electrical
+6504.T,Fuji Electric,Electrical
+6506.T,Yaskawa Electric,Electrical
+6526.T,Socionext,Electrical
+6645.T,Omron,Electrical
+6674.T,GS Yuasa,Electrical
+6701.T,NEC,Electrical
+6702.T,Fujitsu,Electrical
+6723.T,Renesas Electronics,Electrical
+6724.T,Seiko Epson,Electrical
+6752.T,Panasonic Holdings,Electrical
+6753.T,Sharp,Electrical
+6758.T,Sony Group,Electrical
+6762.T,TDK,Electrical
+6770.T,Alps Alpine,Electrical
+6841.T,Yokogawa Electric,Electrical
+6857.T,Advantest,Electrical
+6861.T,Keyence,Electrical
+6902.T,Denso,Electrical
+6920.T,Lasertec,Electrical
+6954.T,Fanuc,Electrical
+6971.T,Kyocera,Electrical
+6976.T,Taiyo Yuden,Electrical
+6981.T,Murata Manufacturing,Electrical
+7735.T,Screen Holdings,Electrical
+7201.T,Nissan Motor,Automobile
+7202.T,Isuzu Motors,Automobile
+7203.T,Toyota Motor,Automobile
+543A.T,Archion,Automobile
+7211.T,Mitsubishi Motors,Automobile
+7261.T,Mazda,Automobile
+7267.T,Honda Motor,Automobile
+7269.T,Suzuki Motor,Automobile
+7270.T,Subaru,Automobile
+7272.T,Yamaha Motor,Automobile
+4543.T,Terumo,Precision
+7731.T,Nikon,Precision
+7733.T,Olympus,Precision
+7741.T,HOYA,Precision
+7751.T,Canon,Precision
+7832.T,Bandai Namco Holdings,Other manufacturing
+7911.T,Toppan Holdings,Other manufacturing
+7912.T,Dai Nippon Printing,Other manufacturing
+7951.T,Yamaha,Other manufacturing
+8001.T,Itochu,Trading
+8002.T,Marubeni,Trading
+8015.T,Toyota Tsusho,Trading
+8031.T,Mitsui & Co,Trading
+8035.T,Tokyo Electron,Trading
+8053.T,Sumitomo Corporation,Trading
+8058.T,Mitsubishi Corporation,Trading
+8233.T,Takashimaya,Retail
+8252.T,Marui Group,Retail
+8253.T,Credit Saison,Other finance
+8267.T,Aeon,Retail
+8304.T,Aozora Bank,Bank
+8306.T,Mitsubishi UFJ Financial Group,Bank
+8308.T,Resona Holdings,Bank
+8309.T,Sumitomo Mitsui Trust Holdings,Bank
+8316.T,Sumitomo Mitsui Financial Group,Bank
+8331.T,Chiba Bank,Bank
+8354.T,Fukuoka Financial Group,Bank
+8411.T,Mizuho Financial Group,Bank
+8601.T,Daiwa Securities Group,Securities
+8604.T,Nomura Holdings,Securities
+8630.T,SOMPO Holdings,Insurance
+8725.T,MS&AD Insurance Group,Insurance
+8750.T,Dai-ichi Life Holdings,Insurance
+8766.T,Tokio Marine Holdings,Insurance
+8795.T,T&D Holdings,Insurance
+3289.T,Tokyu Fudosan Holdings,Real estate
+8801.T,Mitsui Fudosan,Real estate
+8802.T,Mitsubishi Estate,Real estate
+8804.T,Tokyo Tatemono,Real estate
+8830.T,Sumitomo Realty & Development,Real estate
+9001.T,Tobu Railway,Railway
+9005.T,Tokyu,Railway
+9007.T,Odakyu Electric Railway,Railway
+9008.T,Keio,Railway
+9009.T,Keisei Electric Railway,Railway
+9020.T,East Japan Railway,Railway
+9021.T,West Japan Railway,Railway
+9022.T,Central Japan Railway,Railway
+9064.T,Yamato Holdings,Land transport
+9147.T,Nippon Express Holdings,Land transport
+9101.T,Nippon Yusen,Marine transport
+9104.T,Mitsui O.S.K. Lines,Marine transport
+9107.T,Kawasaki Kisen Kaisha,Marine transport
+9201.T,Japan Airlines,Air transport
+9202.T,ANA Holdings,Air transport
+9501.T,Tokyo Electric Power,Electric power
+9502.T,Chubu Electric Power,Electric power
+9503.T,Kansai Electric Power,Electric power
+9531.T,Tokyo Gas,Gas
+9532.T,Osaka Gas,Gas
+2413.T,M3,Services
+2432.T,DeNA,Services
+3659.T,Nexon,Services
+4307.T,Nomura Research Institute,Services
+4324.T,Dentsu Group,Services
+4385.T,Mercari,Services
+4661.T,Oriental Land,Services
+4689.T,LY Corporation,Services
+4704.T,Trend Micro,Services
+4751.T,CyberAgent,Services
+4755.T,Rakuten Group,Services
+6098.T,Recruit Holdings,Services
+6178.T,Japan Post Holdings,Services
+7974.T,Nintendo,Services
+9432.T,Nippon Telegraph and Telephone,Communications
+9433.T,KDDI,Communications
+9434.T,SoftBank,Communications
+9735.T,Secom,Services
+9766.T,Konami Group,Services
+9843.T,Nitori Holdings,Retail
+9983.T,Fast Retailing,Retail
+9984.T,SoftBank Group,Communications
+6963.T,Rohm,Electrical
+7752.T,Ricoh,Electrical
+4902.T,Konica Minolta,Precision
+6146.T,Disco,Precision
+7453.T,Ryohin Keikaku,Retail
+7532.T,Pan Pacific International Holdings,Retail
+7186.T,Yokohama Financial Group,Bank
+8591.T,Orix,Other finance
+8697.T,Japan Exchange Group,Other finance
+3697.T,Shift,Services
+6532.T,BayCurrent,Services
+9602.T,Toho,Services
+3861.T,Oji Holdings,Pulp and paper
+2768.T,Sojitz,Trading
+5631.T,Japan Steel Works,Machinery
+6103.T,Okuma,Machinery
+6113.T,Amada,Machinery
+6273.T,SMC,Machinery

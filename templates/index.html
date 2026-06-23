@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Chart Shape Finder</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+	<header class="hero">
+		<div>
+			<p class="eyebrow">Nikkei 225 shape search</p>
+			<h1>描いたチャートに似ている株を探す</h1>
+			<p class="lead">マウスや指で値動きの形を描くと、日経225銘柄の終値チャートから近い形をランキングします。</p>
+		</div>
+		<div class="hero-card">
+			<strong>Flask + yfinance</strong>
+			<span>終値を0-1に正規化して、軽量な類似度計算で比較します。</span>
+		</div>
+	</header>
+
+	<main class="layout">
+		<section class="panel draw-panel">
+			<div class="panel-header">
+				<div>
+					<p class="eyebrow">draw</p>
+					<h2>探したい形を描く</h2>
+				</div>
+				<button id="clearButton" class="ghost-button" type="button">クリア</button>
+			</div>
+
+			<div class="canvas-wrap">
+				<canvas id="drawCanvas" width="900" height="420"></canvas>
+			</div>
+		</section>
+
+		<aside class="panel controls">
+			<p class="eyebrow">conditions</p>
+			<h2>検索条件</h2>
+
+			<label>
+				市場
+				<select id="market">
+					{% for market in markets %}
+						<option value="{{ market }}" {% if market == default_market %}selected{% endif %}>{{ market }}</option>
+					{% endfor %}
+				</select>
+			</label>
+
+			<label>
+				比較期間
+				<select id="period">
+					{% for value, label in periods.items() %}
+						<option value="{{ value }}" {% if value == "6mo" %}selected{% endif %}>{{ label }}</option>
+					{% endfor %}
+				</select>
+			</label>
+
+			<label>
+				基準日
+				<input id="baseDate" type="date" value="{{ today }}" max="{{ today }}">
+			</label>
+
+			<label>
+				基準日の位置
+				<select id="anchor">
+					{% for value, label in anchors.items() %}
+						<option value="{{ value }}" {% if value == default_anchor %}selected{% endif %}>{{ label }}</option>
+					{% endfor %}
+				</select>
+			</label>
+
+			<label>
+				表示件数
+				<select id="topN">
+					<option value="5">5件</option>
+					<option value="10" selected>10件</option>
+					<option value="20">20件</option>
+					<option value="30">30件</option>
+				</select>
+			</label>
+
+			<label>
+				平均出来高フィルター
+				<input id="minAvgVolume" type="number" min="0" step="100000" placeholder="空欄なら無効">
+			</label>
+
+			<button id="searchButton" class="primary-button" type="button">似ている銘柄を探す</button>
+			<p id="status" class="status">線を描いてから検索してください。</p>
+		</aside>
+
+		<section class="panel results-panel">
+			<div class="panel-header">
+				<div>
+					<p class="eyebrow">ranking</p>
+					<h2>検索結果</h2>
+				</div>
+				<span id="summary" class="summary"></span>
+			</div>
+			<div id="results" class="results-empty">まだ検索していません。</div>
+		</section>
+	</main>
+
+	<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
