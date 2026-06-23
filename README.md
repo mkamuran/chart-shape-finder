@@ -134,7 +134,7 @@ Start Command: gunicorn run:app --bind 0.0.0.0:$PORT --timeout 180
 
 1. Render Dashboard で `New` → `Web Service`
 2. GitHub リポジトリを接続
-3. Repository: `mkamuran/temp`
+3. Repository: `mkamuran/chart-shape-finder`
 4. Branch: `main`
 5. Runtime: `Python`
 6. Build Command: `pip install -r requirements.txt`
