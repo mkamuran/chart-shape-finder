@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: chart-shape-finder
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn run:app --bind 0.0.0.0:$PORT
+    healthCheckPath: /
+    autoDeployTrigger: commit

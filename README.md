@@ -95,14 +95,28 @@ http://localhost:5000
 
 ## Deployment
 
-Render の Web Service で動かす場合は、次の設定を使えます。
+Render の Web Service で公開できます。
 
 ```text
 Build Command: pip install -r requirements.txt
-Start Command: gunicorn run:app
+Start Command: gunicorn run:app --bind 0.0.0.0:$PORT
 ```
 
-無料枠では初回アクセスや初回検索が遅くなることがあります。
+このリポジトリには `render.yaml` も入れているため、Render の Blueprint として作成することもできます。
+
+手動で作成する場合:
+
+1. Render Dashboard で `New` → `Web Service`
+2. GitHub リポジトリを接続
+3. Repository: `mkamuran/temp`
+4. Branch: `main`
+5. Runtime: `Python`
+6. Build Command: `pip install -r requirements.txt`
+7. Start Command: `gunicorn run:app --bind 0.0.0.0:$PORT`
+8. Instance Type: `Free`
+9. `Create Web Service`
+
+無料枠では初回アクセスや初回検索が遅くなることがあります。検索時は `yfinance` で株価を取得するため、外部APIの応答状況によっても待ち時間が変わります。
 
 ## Notes
 
